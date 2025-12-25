@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linl_item_file_container" android:background="@drawable/style_click_r_rectangle_white_gray_mlh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="54.0dip" android:layout_height="54.0dip">
+            <ImageView android:id="@id/imgv_item_file_ico" android:layout_width="36.0dip" android:layout_height="42.0dip" android:src="@mipmap/folder_mlh" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="@color/black_mlh" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_item_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="4.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/grey500_mlh" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_item_file_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <CheckBox android:id="@id/checkbox_item_file_choose" android:visibility="invisible" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+            <ImageView android:id="@id/imgv_item_file_enter" android:layout_width="16.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_partition_tabbar_black_mlh" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

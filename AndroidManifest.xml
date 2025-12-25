@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="pubgm.loader" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.OTHER_SERVICES"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+    </queries>
+    <queries>
+        <package android:name="com.facebook.katana"/>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+    <queries>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.amazon.venezia"/>
+        <package android:name="com.sec.android.app.samsungapps"/>
+        <package android:name="com.huawei.appmarket"/>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.HIDE_OVERLAY_WINDOWS"/>
+    <uses-permission android:name="android.permission.QUERY_ADVANCED_PROTECTION_MODE"/>
+    <uses-permission android:name="android.permission.DUMP"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.facebook.services.identity.FEO2"/>
+    <uses-permission android:name="com.google.android.providers.talk.permission.READ_ONLY"/>
+    <uses-permission android:name="com.google.android.providers.talk.permission.WRITE_ONLY"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"/>
+    <uses-permission android:name="com.open.gallery.smart.Read"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.ACCEPT_HANDOVER"/>
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND"/>
+    <uses-permission android:name="android.permission.UWB_RANGING"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO"/>
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.RUN_USER_INITIATED_JOBS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission-sdk-23 android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.TRANSMIT_IR"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.USE_SIP"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-feature android:name="zidane.software.ability" android:required="false"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <permission android:name="pubgm.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="pubgm.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="true" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="false" android:icon="@drawable/icon" android:label="BEN10" android:largeHeap="true" android:name="pubgm.loader.BoxApplication" android:networkSecurityConfig="@xml/network_security_config" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:resizeableActivity="true" android:supportsRtl="false" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <activity android:enabled="true" android:exported="true" android:icon="@drawable/icon" android:name="pubgm.loader.activity.SplashActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="pubgm.loader.activity.LoginActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="pubgm.loader.activity.MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="pubgm.loader.activity.TurboActivity"/>
+        <activity android:launchMode="singleTop" android:name="pubgm.loader.server.ServerSelection" android:theme="@style/PopupTheme"/>
+        <service android:enabled="true" android:exported="false" android:name="pubgm.loader.service.MainService"/>
+        <service android:name="pubgm.loader.floating.Overlay"/>
+        <service android:name="pubgm.loader.floating.FloatService"/>
+        <service android:name="pubgm.loader.floating.ToggleBullet"/>
+        <service android:name="pubgm.loader.floating.ToggleAim"/>
+        <service android:name="pubgm.loader.floating.ToggleSimulation"/>
+        <service android:name="pubgm.loader.floating.FightMode"/>
+        <provider android:authorities="pubgm.loader.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="pubgm.loader.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_path"/>
+        </provider>
+        <property android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" android:value="true"/>
+        <provider android:authorities="pubgm.loader.service.provider" android:exported="false" android:name="top.bienvenido.mundo.supervisor.MundoSupervisorProvider"/>
+        <activity android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="top.bienvenido.mundo.manifest.MundoIntermediary" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="false" android:exported="true" android:label="Facebook Login" android:name="top.bienvenido.mundo.FBLoginAbility" android:targetActivity="top.bienvenido.mundo.manifest.MundoIntermediary">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="top.bienvenido.mundo.manifest.MundoSplashLauncher" android:noHistory="true" android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"/>
+        <service android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB" android:permission="android.permission.BIND_VPN_SERVICE"/>
+        <receiver android:exported="true" android:name="top.bienvenido.mundo.manifest.MundoReceiver">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="pubgm.loader.mundo.receiver.stub"/>
+            </intent-filter>
+        </receiver>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB1" android:process=":stub1" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task1" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB2" android:process=":stub2" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task2" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB3" android:process=":stub3" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task3" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB4" android:process=":stub4" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task4" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB5" android:process=":stub5" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task5" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB6" android:process=":stub6" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task6" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB7" android:process=":stub7" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task7" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB8" android:process=":stub8" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task8" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB9" android:process=":stub9" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task9" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB10" android:process=":stub10" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task10" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB11" android:process=":stub11" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task11" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB12" android:process=":stub12" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task12" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB13" android:process=":stub13" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task13" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB14" android:process=":stub14" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task14" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB15" android:process=":stub15" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task15" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB16" android:process=":stub16" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task16" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB17" android:process=":stub17" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task17" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB18" android:process=":stub18" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task18" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB19" android:process=":stub19" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task19" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB20" android:process=":stub20" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task20" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB21" android:process=":stub21" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task21" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB22" android:process=":stub22" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task22" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB23" android:process=":stub23" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task23" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB24" android:process=":stub24" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task24" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB1H" android:process=":stub1" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task1" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB2H" android:process=":stub2" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task2" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB3H" android:process=":stub3" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task3" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB4H" android:process=":stub4" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task4" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB5H" android:process=":stub5" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task5" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB6H" android:process=":stub6" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task6" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB7H" android:process=":stub7" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task7" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB8H" android:process=":stub8" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task8" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB9H" android:process=":stub9" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task9" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB10H" android:process=":stub10" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task10" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB11H" android:process=":stub11" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task11" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB12H" android:process=":stub12" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task12" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB13H" android:process=":stub13" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task13" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB14H" android:process=":stub14" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task14" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB15H" android:process=":stub15" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task15" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB16H" android:process=":stub16" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task16" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB17H" android:process=":stub17" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task17" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB18H" android:process=":stub18" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task18" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB19H" android:process=":stub19" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task19" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB20H" android:process=":stub20" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task20" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB21H" android:process=":stub21" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task21" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB22H" android:process=":stub22" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task22" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB23H" android:process=":stub23" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task23" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB24H" android:process=":stub24" android:screenOrientation="sensorLandscape" android:supportsPictureInPicture="true" android:taskAffinity="top.bienvenido.mundo.task24" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="pubgm.loader.provider.stub1" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB1" android:process=":stub1"/>
+        <provider android:authorities="pubgm.loader.provider.stub2" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB2" android:process=":stub2"/>
+        <provider android:authorities="pubgm.loader.provider.stub3" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB3" android:process=":stub3"/>
+        <provider android:authorities="pubgm.loader.provider.stub4" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB4" android:process=":stub4"/>
+        <provider android:authorities="pubgm.loader.provider.stub5" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB5" android:process=":stub5"/>
+        <provider android:authorities="pubgm.loader.provider.stub6" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB6" android:process=":stub6"/>
+        <provider android:authorities="pubgm.loader.provider.stub7" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB7" android:process=":stub7"/>
+        <provider android:authorities="pubgm.loader.provider.stub8" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB8" android:process=":stub8"/>
+        <provider android:authorities="pubgm.loader.provider.stub9" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB9" android:process=":stub9"/>
+        <provider android:authorities="pubgm.loader.provider.stub10" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB10" android:process=":stub10"/>
+        <provider android:authorities="pubgm.loader.provider.stub11" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB11" android:process=":stub11"/>
+        <provider android:authorities="pubgm.loader.provider.stub12" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB12" android:process=":stub12"/>
+        <provider android:authorities="pubgm.loader.provider.stub13" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB13" android:process=":stub13"/>
+        <provider android:authorities="pubgm.loader.provider.stub14" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB14" android:process=":stub14"/>
+        <provider android:authorities="pubgm.loader.provider.stub15" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB15" android:process=":stub15"/>
+        <provider android:authorities="pubgm.loader.provider.stub16" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB16" android:process=":stub16"/>
+        <provider android:authorities="pubgm.loader.provider.stub17" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB17" android:process=":stub17"/>
+        <provider android:authorities="pubgm.loader.provider.stub18" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB18" android:process=":stub18"/>
+        <provider android:authorities="pubgm.loader.provider.stub19" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB19" android:process=":stub19"/>
+        <provider android:authorities="pubgm.loader.provider.stub20" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB20" android:process=":stub20"/>
+        <provider android:authorities="pubgm.loader.provider.stub21" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB21" android:process=":stub21"/>
+        <provider android:authorities="pubgm.loader.provider.stub22" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB22" android:process=":stub22"/>
+        <provider android:authorities="pubgm.loader.provider.stub23" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB23" android:process=":stub23"/>
+        <provider android:authorities="pubgm.loader.provider.stub24" android:exported="true" android:grantUriPermissions="true" android:name="top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB24" android:process=":stub24"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB1" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub1"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB2" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub2"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB3" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub3"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB4" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub4"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB5" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub5"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB6" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub6"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB7" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub7"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB8" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub8"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB9" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub9"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB10" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub10"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB11" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub11"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB12" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub12"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB13" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub13"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB14" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub14"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB15" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub15"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB16" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub16"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB17" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub17"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB18" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub18"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB19" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub19"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB20" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub20"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB21" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub21"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB22" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub22"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB23" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub23"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync|mediaPlayback|phoneCall" android:name="top.bienvenido.mundo.manifest.MundoService$Companion$STUB24" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":stub24"/>
+        <activity android:name="com.molihuan.pathselector.activity.impl.PathSelectActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.blankj.molihuan.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.blankj.molihuan.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="pubgm.loader.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.molihuan.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.molihuan.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="pubgm.loader.messenger"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="pubgm.loader.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="pubgm.loader.messenger"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <provider android:authorities="pubgm.loader.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:icon="@drawable/ic_home" android:id="@id/homei" android:title="@string/home" />
+        <item android:icon="@drawable/cog" android:id="@id/setti" android:title="@string/setting_" />
+    </group>
+    <group>
+        <item android:icon="@drawable/ic_telegram" android:id="@id/link_tg" android:title="@string/telegram_channel_" android:iconTint="@color/red" />
+        <item android:icon="@drawable/ic_community" android:id="@id/link_community" android:title="@string/join_community" android:iconTint="@color/red" />
+        <item android:icon="@drawable/ic_developer" android:id="@id/link_dev" android:title="@string/contact_developer" android:iconTint="@color/red" />
+    </group>
+    <group>
+        <item android:icon="@drawable/ic_logout" android:id="@id/logout" android:title="@string/logout_" android:iconTint="@color/red" />
+    </group>
+</menu>

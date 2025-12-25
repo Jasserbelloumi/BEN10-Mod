@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Choice Skin X-SUIT" android:alpha="0.8" android:fontFamily="@font/cof" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/pharaohskin" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Pharaoh X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/bloodreven" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Blood Raven X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/posreidon" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Poseidon X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/avalache" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Avalanche X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/silvanus" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Silvanus X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/iridescense" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:text="Iridescence X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                            <CheckBox android:textColor="@color/white" android:id="@id/aracane" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="Arcane Jester X-Suit" android:fontFamily="@font/cof" android:layoutDirection="rtl" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
