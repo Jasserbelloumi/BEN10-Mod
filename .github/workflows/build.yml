@@ -7,12 +7,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'zulu'
-          java-version: '17'
-
       - name: Install Apktool
         run: |
           sudo apt-get update
@@ -20,11 +14,11 @@ jobs:
 
       - name: Build APK
         run: |
-          # بناء التطبيق من المجلد الموجود في المستودع
-          apktool b Smali-Source-Code -o BEN10_Modded_Unsigned.apk
+          # البناء من المجلد الجديد
+          apktool b Source -o BEN10_Fixed.apk
 
-      - name: Upload Unsigned APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Unsigned-Mod-APK
-          path: BEN10_Modded_Unsigned.apk
+          name: Final-Modded-APK
+          path: BEN10_Fixed.apk
