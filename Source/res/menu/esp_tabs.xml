@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/vector_vision" android:title="@string/visual" />
+    <item android:icon="@drawable/vector_items" android:title="@string/items" />
+    <item android:icon="@drawable/vector_vehicles" android:title="@string/vehicles" />
+    <item android:icon="@drawable/vector_aim" android:title="@string/aimboot" />
+    <item android:icon="@drawable/vector_injector" android:title="@string/sdk" />
+</menu>
