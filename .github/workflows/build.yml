@@ -1,30 +1,30 @@
-name: Build and Sign APK
+name: Build APK
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
           java-version: '17'
+
       - name: Install Apktool
-        run: sudo apt-get install -y apktool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apktool
+
       - name: Build APK
-        run: apktool b Smali-Source-Code -o modified.apk
-      - name: Sign APK
-        uses: r0adkll/sign-android-release@v1
-        with:
-          releaseDirectory: .
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-          alias: ${{ secrets.ALIAS }}
-          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEY_PASSWORD }}
-        continue-on-error: true # سنحاول التوقيع لاحقاً بشكل يدوي إذا لم تتوفر الأسرار
-      - name: Upload APK
+        run: |
+          # بناء التطبيق من المجلد الموجود في المستودع
+          apktool b Smali-Source-Code -o BEN10_Modded_Unsigned.apk
+
+      - name: Upload Unsigned APK
         uses: actions/upload-artifact@v4
         with:
-          name: Modded-BEN10-APK
-          path: modified.apk
+          name: Unsigned-Mod-APK
+          path: BEN10_Modded_Unsigned.apk
