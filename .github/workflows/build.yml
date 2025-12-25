@@ -12,10 +12,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y apktool
 
-      - name: Build APK
+      - name: Build APK (Fast Mode)
         run: |
-          # البناء من المجلد الجديد
-          apktool b Source -o BEN10_Fixed.apk
+          # خيار -r يمنع إعادة بناء الموارد ويتجاوز أخطاء XML
+          apktool b -r Source -o BEN10_Fixed.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
