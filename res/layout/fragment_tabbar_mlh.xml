@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="horizontal" android:id="@id/linl_tabbar" android:background="@color/grey_transparent20_mlh" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center" android:id="@id/imgv_select_storage_tabbar" android:background="@drawable/style_click_rectangle_transp_gray_mlh" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_tabbar_storage_black" android:adjustViewBounds="true" android:layout_centerVertical="true" android:tooltipText="@string/internal_storage_mlh" />
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/recv_file_bread_tabbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgv_select_storage_tabbar" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

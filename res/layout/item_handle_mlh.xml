@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/style_click_rectangle_white_gray_mlh" android:layout_width="wrap_content" android:layout_height="50.0dip" android:translationZ="4.0dip" android:elevation="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/item_handle_relatl_mlh" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingHorizontal="10.0dip">
-        <ImageView android:id="@id/item_handle_imav_ico_mlh" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_partition_tabbar_black_mlh" android:layout_toLeftOf="@id/item_handle_tv_mlh" android:layout_centerVertical="true" />
-        <TextView android:textSize="20.0dip" android:textColor="@color/black_mlh" android:gravity="center" android:id="@id/item_handle_tv_mlh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_text_mlh" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</RelativeLayout>
