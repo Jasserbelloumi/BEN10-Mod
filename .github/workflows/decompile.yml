@@ -1,0 +1,22 @@
+name: Decompile BEN10 APK
+on: [push]
+jobs:
+  decompile_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Apktool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apktool
+
+      - name: Decompile APK
+        run: apktool d BEN10FREE.apk -o decompiled_source
+
+      - name: Upload Decompiled Source as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Smali-Source-Code
+          path: decompiled_source/
